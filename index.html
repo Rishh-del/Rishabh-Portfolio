@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rishabh Jain · Portfolio</title>
+  <meta name="description" content="Rishabh Jain: engineer and tech risk consultant, now building toward product management.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Instrument+Serif:ital@0;1&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="nav">
+    <nav aria-label="Sections">
+      <a href="#story">story</a>
+      <a href="#growing-up">growing up</a>
+      <a href="#projects">projects</a>
+      <a href="#work">work</a>
+      <a href="#education">edu</a>
+      <a href="#skills">toolkit</a>
+      <a href="#off-hours">off-hours</a>
+      <a href="#contact">say hi</a>
+    </nav>
+  </header>
+
+  <main id="top">
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-text">
+        <p class="eyebrow">Portfolio</p>
+        <h1>Rishabh Jain</h1>
+        <p class="tagline"><em>risk-minded</em><br>with a product heart.</p>
+        <p class="looking">Fun fact: <strong>Ronaldo fan for life, with a Bollywood dialogue ready for every situation.</strong></p>
+        <div class="btn-row">
+          <a class="btn btn-solid" href="mailto:rishabhjain14657@gmail.com">say hello</a>
+          <a class="btn" href="https://www.linkedin.com/in/rishabh-jain-0ba096311" target="_blank" rel="noopener">on linkedin</a>
+          <a class="btn" href="https://substack.com/@rishhh0719" target="_blank" rel="noopener">sometimes i write</a>
+        </div>
+        <a class="scroll-hint" href="#story">scroll to kick off ↓</a>
+      </div>
+      <div class="hero-photo">
+        <figure class="ph ph-hero" data-label="add your photo: images/hero.jpg">
+        <img src="images/hero.jpg" alt="Rishabh Jain" onerror="this.remove()">
+      </figure>
+        <span class="tape tape-l"></span><span class="tape tape-r"></span>
+        <svg class="sk sk-jersey sk-hero-jersey" viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path d="M20 6 8 14l6 12 6-4v34h24V22l6 4 6-12L44 6c-3 6-9 8-12 8S23 12 20 6Z" fill="#FF9F7A" stroke="#EAE6DF" stroke-width="3" stroke-linejoin="round"/><text x="32" y="44" text-anchor="middle" font-family="Instrument Serif, serif" font-size="17" font-weight="700" fill="#0F1420">RJ</text></svg>
+        <svg class="sk sk-hero-bubble" viewBox="0 0 120 80" aria-hidden="true" focusable="false"><path d="M12 6h96a8 8 0 0 1 8 8v36a8 8 0 0 1-8 8H56L36 74V58H12a8 8 0 0 1-8-8V14a8 8 0 0 1 8-8Z" fill="#FF9F7A" stroke="#EAE6DF" stroke-width="3" stroke-linejoin="round"/><text x="60" y="40" text-anchor="middle" font-family="Instrument Serif, serif" font-size="25" font-weight="700" fill="#0F1420">hi there!</text></svg>
+      </div>
+    </section>
+
+    <!-- 01 STORY -->
+    <section id="story" class="section reveal">
+      <p class="kicker">01 · the story</p>
+      <h2>a blurb about me</h2>
+      <div class="story-grid">
+        <div class="prose">
+          <p>I'm Rishabh, a computer science engineer who spent his first job asking one question: <em>can this system be trusted?</em></p>
+          <p>I was born in New Delhi and grew up across Germany, Singapore, the Netherlands, India and Malaysia. Going to international schools taught me early that the same idea can be explained in many different ways, and that the best one is usually the one the other person can actually use.</p>
+          <p>After a B.Tech in Computer Science, I did two data science internships, building a sales forecasting tool and a reader-prediction model for a national newspaper. Then I joined EY's Tech Risk Assurance team, where I have tested 100+ IT controls across 7+ industries and sat in front of clients on a regular basis.</p>
+          <p>Along the way I noticed where I get the most energy: figuring out where a product fails a real person, and what should change. That's why I'm moving into product. I'm especially drawn to fintech and payments, where the product decides whether someone's money stays safe.</p>
+          <p>Outside work, I write. Since my first year of college I've written 18+ stories (horror, jungle adventure and psychological thrillers), and I'm happiest in a cinema, asking why a scene was written the way it was. It's the same habit I bring to products.</p>
+        </div>
+        <aside class="stats">
+          <div class="stat"><span>100+</span>IT controls independently evaluated</div>
+          <div class="stat"><span>300+</span>coffee chats with PMs and consultants</div>
+          <div class="stat"><span>10+</span>independent product case studies</div>
+          <div class="stat"><span>7+</span>industries worked across</div>
+        </aside>
+      </div>
+      <blockquote class="pull">
+        <p>The AI handoff: several PMs told me their job has shifted from writing specs to deciding when a model may act alone and when it must hand over to a human. In fraud and payments, that boundary <em>is</em> the product.</p>
+        <cite>— from my coffee chats</cite>
+      </blockquote>
+      
+    </section>
+
+    <!-- 02 GROWING UP -->
+    <section id="growing-up" class="section reveal">
+      <p class="kicker">02 · growing up</p>
+      <h2>across countries</h2>
+      <p class="sub">five countries, a lot of new classrooms,<br>and a few lessons i still use.</p>
+      <h3 class="subhead first">where i grew up</h3>
+      <div class="globe" id="globe">
+        <div class="gl-view">
+          <canvas id="gl-canvas" role="img" aria-label="Interactive globe showing the places I have lived: New Delhi, Bangalore, Germany, Singapore, the Netherlands, Gurugram, Malaysia and Mumbai"></canvas>
+          <p class="gl-hint">tap a chapter, or drag the globe to spin it</p>
+        </div>
+        <div class="gl-side">
+          <div class="chapters" id="gl-chapters" role="tablist" aria-label="Chapters"></div>
+          <article class="gl-card" id="gl-card" aria-live="polite">
+            <div class="gl-cut" id="gl-cut" aria-hidden="true"></div>
+            <div class="gl-txt"><span class="yrs" id="gl-yrs"></span><h4 id="gl-title"></h4><p id="gl-text"></p></div>
+          </article>
+        </div>
+        <noscript><p class="sub">New Delhi and Bangalore, then Germany and Singapore, Rotterdam, Gurugram, Kuala Lumpur, Mumbai and Delhi.</p></noscript>
+      </div>
+
+      <h3 class="subhead">what moving around taught me</h3>
+      <div class="lessons">
+        <div class="lesson">
+          <svg class="sk sk-lesson" viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path d="M22 4h8l6 18h-8ZM42 4h-8l-6 18h8Z" fill="#7C8CFF" stroke="#EAE6DF" stroke-width="2.5" stroke-linejoin="round"/><circle cx="32" cy="42" r="16" fill="#FF9F7A" stroke="#EAE6DF" stroke-width="3"/><path d="m32 33 3 6 7 1-5 5 1 7-6-3-6 3 1-7-5-5 7-1Z" fill="#0F1420"/></svg>
+          <h4>keep going till the end</h4>
+          <p>At my swimming diploma ceremony, nearly every name was called and mine wasn't. Mine was the very last certificate. I went on to earn the next level, and I've kept that "never give up" habit since.</p>
+        </div>
+        <div class="lesson">
+          <svg class="sk sk-lesson" viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path d="M20 8h24v14c0 9-6 15-12 15S20 31 20 22Z" fill="#FF9F7A" stroke="#EAE6DF" stroke-width="3" stroke-linejoin="round"/><path d="M20 12h-8c0 10 4 14 9 15M44 12h8c0 10-4 14-9 15" fill="none" stroke="#EAE6DF" stroke-width="3" stroke-linecap="round"/><path d="M32 37v10" stroke="#EAE6DF" stroke-width="4" stroke-linecap="round"/><rect x="22" y="47" width="20" height="8" rx="2" fill="#FF9F7A" stroke="#EAE6DF" stroke-width="3"/></svg>
+          <h4>feedback is a roadmap</h4>
+          <p>I missed the school cricket team at my first trial. I asked my coach what to fix, worked on it for 4-5 months, made the team, and we won the match we travelled for.</p>
+        </div>
+        <div class="lesson">
+          <svg class="sk sk-lesson" viewBox="0 0 64 64" aria-hidden="true" focusable="false"><rect x="8" y="8" width="48" height="48" rx="10" fill="#EAE6DF" stroke="#0F1420" stroke-width="2.5"/><circle cx="22" cy="22" r="4.2" fill="#0F1420"/><circle cx="42" cy="22" r="4.2" fill="#0F1420"/><circle cx="32" cy="32" r="4.2" fill="#0F1420"/><circle cx="22" cy="42" r="4.2" fill="#0F1420"/><circle cx="42" cy="42" r="4.2" fill="#0F1420"/></svg>
+          <h4>there's more than one way to learn</h4>
+          <p>In Rotterdam, we learned multiplication tables by playing a game in a circle instead of memorising them. Good design makes hard things feel playable.</p>
+        </div>
+      </div>
+    
+      <div class="photo-row">
+        <figure class="ph" data-label="add a photo: images/story-1.jpg"><img src="images/story-1.jpg" alt="Rishabh standing in front of the Burj Khalifa in Dubai at night" onerror="this.remove()"><figcaption>Dubai, UAE</figcaption></figure>
+        <figure class="ph" data-label="add a photo: images/story-2.jpg"><img src="images/story-2.jpg" alt="Rishabh with two suitcases, ready for the next trip" onerror="this.remove()"><figcaption>always travelling, looking for the next trip</figcaption></figure>
+      </div>
+    </section>
+
+    <!-- 03 PROJECTS -->
+    <section id="projects" class="section reveal">
+      <p class="kicker">03 · things i've built</p>
+      <h2>selected projects</h2>
+      <p class="sub">pinned on the wall for when<br>i need a reminder that i make things.</p>
+
+      <div class="projects-wrap" data-view="pitch">
+        <div class="view-toggle" role="group" aria-label="Choose a view">
+          <button type="button" data-view="pitch" class="on">⚽ tactics board</button>
+          <button type="button" data-view="cards">▤ cards</button>
+        </div>
+        <div class="pitch">
+          <svg viewBox="0 0 1000 500" aria-hidden="true"><g fill="none" stroke="#EAE6DF" stroke-opacity=".28" stroke-width="2.5"><rect x="20" y="20" width="960" height="460"/><path d="M500 20V480"/><circle cx="500" cy="250" r="70"/><rect x="20" y="130" width="140" height="240"/><rect x="20" y="200" width="55" height="100"/><rect x="840" y="130" width="140" height="240"/><rect x="925" y="200" width="55" height="100"/><path d="M160 205A60 60 0 0 1 160 295M840 205A60 60 0 0 0 840 295"/></g><circle cx="500" cy="250" r="4" fill="#EAE6DF" fill-opacity=".4"/><g fill="none" stroke="#FF9F7A" stroke-width="3" stroke-dasharray="3 10" stroke-linecap="round" opacity=".75"><path d="M120,250 L320,250"/> <path d="M320,250 L520,135"/> <path d="M320,250 L520,365"/> <path d="M520,135 L820,250"/> <path d="M520,365 L820,250"/> <path d="M520,135 L520,365"/></g><g transform="translate(878 228)"><circle r="13" fill="#EAE6DF" stroke="#0F1420" stroke-width="2.5"/><path d="M0 -6l6 4-2.4 6.6h-7.2L-6 -2z" fill="#0F1420"/></g></svg>
+          <span class="formation">formation 1-1-2-1 · tap a player</span>
+          <button type="button" class="pl" data-project="phishing" style="left:12%;top:50%"><span class="chip">40–50% better unsafe-behaviour recognition</span><span class="shirt ">1</span><span class="nm">phishing awareness</span><span class="role">goalkeeper · stops scams at the line</span></button><button type="button" class="pl" data-project="trustnet" style="left:32%;top:50%"><span class="chip">99.1% accuracy on a public benchmark</span><span class="shirt b">4</span><span class="nm">TrustNet-X</span><span class="role">centre-back · explains every alert</span></button><button type="button" class="pl" data-project="codegenx" style="left:52%;top:27%"><span class="chip">7 specialised AI agents</span><span class="shirt ">8</span><span class="nm">CodeGenX</span><span class="role">midfield · 7 agents, one passing game</span></button><button type="button" class="pl" data-project="letstalk" style="left:52%;top:73%"><span class="chip">3 sign-in options · real-time chat</span><span class="shirt b">7</span><span class="nm">Lets Talk Pro</span><span class="role">winger · real-time passes between people</span></button><button type="button" class="pl" data-project="fitflex" style="left:82%;top:50%"><span class="chip">93% model accuracy</span><span class="shirt ">9</span><span class="nm">FitFlex Pro</span><span class="role">striker · my first major project</span></button>
+        </div>
+        <div class="cards">
+        <article class="card" data-project="fitflex" tabindex="0">
+          <span class="stk">first major project</span>
+          <div class="card-stat"><span>93%</span>model accuracy</div>
+          <h3>FitFlex Pro · Personalised diet system</h3>
+          <p>An end-to-end diet recommender built with 3 datasets and 5 ML models: it estimates calorie needs from a user's profile, then builds a meal plan from their food choices.</p>
+          <ul class="tags"><li>Machine Learning</li><li>Recommendation Systems</li><li>Streamlit</li><li>Personalization</li></ul>
+          <button class="more" type="button">read more →</button>
+        </article>
+
+        <article class="card" data-project="codegenx" tabindex="0">
+          <span class="stk stk-blue">multi-agent AI</span>
+          <div class="card-stat"><span>7</span>specialised AI agents</div>
+          <h3>CodeGenX · AI legacy code modernisation</h3>
+          <p>A multi-agent system that analyses, decomposes, transforms and refactors legacy code, with validation agents checking every phase and a Java plugin as the interface.</p>
+          <ul class="tags"><li>Multi-agent AI</li><li>AutoGen</li><li>Gemini</li><li>Django REST</li></ul>
+          <button class="more" type="button">read more →</button>
+        </article>
+
+        <article class="card" data-project="phishing" tabindex="0">
+          <span class="stk stk-blue">security</span>
+          <div class="card-stat"><span>40–50%</span>better unsafe-behaviour recognition</div>
+          <h3>Phishing awareness simulation</h3>
+          <p>A phishing simulation with an SMS module and a look-alike login page, built to show people how scams look. Reduced detection errors by 30–35%.</p>
+          <ul class="tags"><li>Cybersecurity</li><li>User Awareness</li><li>PHP</li><li>Python</li></ul>
+          <button class="more" type="button">read more →</button>
+        </article>
+
+        <article class="card" data-project="letstalk" tabindex="0">
+          <span class="stk">full-stack</span>
+          <div class="card-stat"><span>3</span>sign-in options · real-time chat</div>
+          <h3>Lets Talk Pro · Real-time chat app</h3>
+          <p>A full-stack messaging app with one-to-one and group chats, read receipts, online status and image sharing, built with Next.js, MongoDB and Pusher.</p>
+          <ul class="tags"><li>Full-stack</li><li>Next.js</li><li>Real-time</li><li>Agile</li></ul>
+          <button class="more" type="button">read more →</button>
+        </article>
+
+        <article class="card" data-project="trustnet" tabindex="0">
+          <span class="stk">latest ★</span>
+          <div class="card-stat"><span>99.1%</span>Random Forest accuracy on a public benchmark</div>
+          <h3>TrustNet-X · Explainable AI for attack detection</h3>
+          <p>Major project: detecting HTTP/2 Rapid Reset DDoS attacks with machine learning, synthetic attack data from a conditional GAN, and SHAP to explain every alert.</p>
+          <ul class="tags"><li>Explainable AI</li><li>SHAP</li><li>Generative AI</li><li>Network Security</li></ul>
+          <button class="more" type="button">read more →</button>
+        </article>
+
+      </div>
+      </div>
+    </section>
+
+    <!-- 04 WORK -->
+    <section id="work" class="section reveal">
+      <p class="kicker">04 · where i've worked</p>
+      <h2>My journey so far</h2>
+      <p class="sub">testing systems, building models,<br>and talking to the people who use them.</p>
+
+      <div class="timeline">
+        <div class="job">
+          <div class="job-meta">
+            <p class="co"><span class="logo-tile"><img src="images/logos/ey.png" alt="EY logo" onerror="this.parentNode.remove()"></span>Ernst &amp; Young</p>
+            <h3>Associate Consultant</h3>
+            <span class="stk stk-inline">promoted ★</span>
+            <p class="when">Oct 2026 — present<br>Gurugram, India</p>
+          </div>
+          <ul>
+            <li>Promoted from Senior Analyst after leading client walkthroughs and stakeholder discussions independently across engagements.</li>
+            <li>Structured audit conversations, spotted <strong>open items and control gaps in real time</strong>, and turned technical observations into risk-focused recommendations that informed client remediation decisions.</li>
+          </ul>
+        </div>
+
+        <div class="job">
+          <div class="job-meta">
+            <p class="co"><span class="logo-tile"><img src="images/logos/ey.png" alt="EY logo" onerror="this.parentNode.remove()"></span>Ernst &amp; Young</p>
+            <h3>Senior Analyst</h3>
+            <p class="when">Aug 2025 — Sep 2026<br>Gurugram, India</p>
+          </div>
+          <ul>
+            <li>Conducted ITGC, ITAC (FAIT) and SOC assessments, independently evaluating <strong>100+ IT controls</strong> across access management, change management, privileged access, application controls and financial reporting systems in <strong>7+ industries</strong> (e-commerce, fintech, travel tech, edtech, real estate and more).</li>
+            <li>Executed the full testing lifecycle: validating population completeness, IPE validation, sampling, testing evidence, raising exceptions and concluding on control effectiveness with documented workpapers.</li>
+            <li>Worked directly with client stakeholders across <strong>10+ engagements</strong>: process walkthroughs, document request lists, challenging weak evidence, and explaining findings to technical and non-technical audiences.</li>
+          </ul>
+        </div>
+
+        <div class="job">
+          <div class="job-meta">
+            <p class="co"><span class="logo-tile"><img src="images/logos/indian-express.png" alt="The Indian Express logo" onerror="this.parentNode.remove()"></span>The Indian Express</p>
+            <h3>Data Science Intern</h3>
+            <p class="when">Apr 2025 — Jul 2025<br>Noida, India</p>
+          </div>
+          <ul>
+            <li>Built a reader-prediction model across <strong>5 digital platforms</strong> using <strong>15+ engineered features</strong> (temporal engagement patterns, content tone bias), reaching <strong>72% accuracy</strong> and supporting audience segmentation and personalization decisions.</li>
+            <li>Designed a Python-based user-agent classification system that decodes raw traffic strings into <strong>10+ device and platform insights</strong>, including OS version, rendering engine and bot detection.</li>
+          </ul>
+        </div>
+
+        <div class="job">
+          <div class="job-meta">
+            <p class="co">Teamarcs Technologies Pvt. Ltd.</p>
+            <h3>Data Science Intern</h3>
+            <p class="when">Jun 2024 — Aug 2024<br>Noida, India</p>
+          </div>
+          <ul>
+            <li>Built an end-to-end sales forecasting solution by evaluating <strong>8+ ML models</strong> and deploying an interactive Streamlit and Tableau system, reaching <strong>85% forecast accuracy</strong>.</li>
+            <li>Worked with a cross-functional data science team on both a forecasting tool and an NLP-based internal chatbot.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 05 EDUCATION -->
+    <section id="education" class="section reveal">
+      <p class="kicker">05 · where i've studied</p>
+      <h2>campus life</h2>
+      <p class="sub">engineer first,<br>product-curious throughout.</p>
+
+      <div class="edu-grid">
+      <div class="edu">
+        <svg class="sk sk-edu" viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path d="M32 10 4 24l28 14 28-14Z" fill="#7C8CFF" stroke="#EAE6DF" stroke-width="3" stroke-linejoin="round"/><path d="M16 32v12c0 5 8 8 16 8s16-3 16-8V32L32 40Z" fill="#7C8CFF" stroke="#EAE6DF" stroke-width="3" stroke-linejoin="round"/><path d="M58 26v18" stroke="#FF9F7A" stroke-width="3" stroke-linecap="round"/><circle cx="58" cy="46" r="3.5" fill="#FF9F7A"/></svg>
+        <h3>Jaypee Institute of Information Technology</h3>
+        <p class="deg">Bachelor of Technology · Computer Science and Engineering</p>
+        <p class="when">Aug 2021 — May 2025 · Noida, India</p>
+        <p><strong>Relevant coursework</strong> Cloud Computing (Azure &amp; AWS) · Data Structures &amp; Algorithms · Database Systems · Probability &amp; Random Processes · Economics · Big Data Systems</p>
+        <p><strong>Also</strong> Studied the craft of storytelling through a film and literature course, which still shapes how I structure case studies.</p>
+      </div>
+      <div class="carousel" id="college-carousel" aria-roledescription="carousel" aria-label="College photos">
+        <span class="stk stk-blue">college days</span>
+        <div class="car-viewport"></div>
+        <button class="car-btn car-prev" type="button" aria-label="Previous photo">‹</button>
+        <button class="car-btn car-next" type="button" aria-label="Next photo">›</button>
+        <div class="car-dots"></div>
+      </div>
+      </div>
+    </section>
+
+    <!-- 06 TOOLKIT -->
+    <section id="skills" class="section reveal">
+      <p class="kicker">06 · the toolkit</p>
+      <h2>what's in the bag</h2>
+      <p class="sub">how the three skill sets fit together.</p>
+      <div class="tk-flow">
+        <div class="tk-step"><div class="tk-k">01 · decide</div><h3>product management</h3><p>What to build, and for whom.</p><div><span class="tk-chip">User Research</span><span class="tk-chip">Stakeholder Management</span><span class="tk-chip">Requirements Gathering</span><span class="tk-chip">Product Metrics &amp; KPIs</span><span class="tk-chip">Prioritization</span><span class="tk-chip">Product Case Studies</span><span class="tk-chip">Cross-functional Collaboration</span><span class="tk-chip">Agile &amp; Sprint Cycles</span></div></div>
+        <div class="tk-ar" aria-hidden="true">→</div>
+        <div class="tk-step"><div class="tk-k">02 · build</div><h3>data &amp; technical</h3><p>Make it real, and make it explainable.</p><div><span class="tk-chip">Python</span><span class="tk-chip">scikit-learn</span><span class="tk-chip">Pandas &amp; NumPy</span><span class="tk-chip">Explainable AI (SHAP)</span><span class="tk-chip">Generative AI (GANs)</span><span class="tk-chip">Multi-agent AI (AutoGen)</span><span class="tk-chip">Next.js &amp; React</span><span class="tk-chip">MongoDB</span><span class="tk-chip">Streamlit</span><span class="tk-chip">Tableau</span><span class="tk-chip">Power BI</span><span class="tk-chip">Jupyter</span></div></div>
+        <div class="tk-ar" aria-hidden="true">→</div>
+        <div class="tk-step"><div class="tk-k">03 · assure</div><h3>risk &amp; audit</h3><p>Check it works and can be trusted.</p><div><span class="tk-chip">ITGC</span><span class="tk-chip">ITAC</span><span class="tk-chip">FAIT</span><span class="tk-chip">SOC 1 / SOC 2</span><span class="tk-chip">Internal Audit</span><span class="tk-chip">Risk &amp; Control Matrix</span><span class="tk-chip">IPE Validation</span><span class="tk-chip">Sampling &amp; Testing</span><span class="tk-chip">Workpapers</span></div></div>
+      </div>
+      <p class="tk-cap">from user need, to working product, to controls that hold up.</p>
+    </section>
+
+    <!-- 07 OFF-HOURS -->
+    <section id="off-hours" class="section reveal">
+      <p class="kicker">07 · off-hours</p>
+      <h2>things that recharge me</h2>
+      <p class="sub">the things i make time for<br>outside of work.</p>
+
+      <div class="hobbies">
+        <figure class="ph" data-label="images/football.jpg"><img src="images/football.jpg" alt="" onerror="this.remove()"><svg class="sk sk-hobby" viewBox="0 0 64 64" aria-hidden="true" focusable="false"><circle cx="32" cy="32" r="28" fill="#EAE6DF" stroke="#0F1420" stroke-width="2.5"/><path d="M32 23 40.6 29.2 37.3 39.3 26.7 39.3 23.4 29.2Z" fill="#0F1420"/><path d="M32 23V8M40.6 29.2 54 24M37.3 39.3 46 52M26.7 39.3 18 52M23.4 29.2 10 24" stroke="#0F1420" stroke-width="2.5" stroke-linecap="round" fill="none"/></svg><figcaption><strong>football, always.</strong> Captained my school team to second place. Real Madrid and Manchester United, and UCL nights that run till 1 a.m.</figcaption></figure>
+        <figure class="ph" data-label="images/movies.jpg"><img src="images/movies.jpg" alt="" onerror="this.remove()"><figcaption><strong>movies in theatres.</strong> At least four a month. I write stories myself, so I watch like a writer: why this scene, and what comes next?</figcaption></figure>
+        <figure class="ph" data-label="images/writing.jpg"><img src="images/writing.jpg" alt="Reading a screenplay on a laptop at a cafe" onerror="this.remove()"><figcaption><strong>writing stories.</strong> 18+ so far (horror, jungle adventure, psychological thrillers), and I've been writing since my first year of college.</figcaption></figure>
+        <figure class="ph" data-label="images/swimming.jpg"><img src="images/swimming.jpg" alt="" onerror="this.remove()"><svg class="sk sk-hobby" viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path d="M22 4h8l6 18h-8ZM42 4h-8l-6 18h8Z" fill="#7C8CFF" stroke="#EAE6DF" stroke-width="2.5" stroke-linejoin="round"/><circle cx="32" cy="42" r="16" fill="#FF9F7A" stroke="#EAE6DF" stroke-width="3"/><path d="m32 33 3 6 7 1-5 5 1 7-6-3-6 3 1-7-5-5 7-1Z" fill="#0F1420"/></svg><figcaption><strong>swimming.</strong> Three diplomas (A, B, C) from my Rotterdam days, and still in the pool.</figcaption></figure>
+      </div>
+    </section>
+
+    <!-- 08 CONTACT -->
+    <section id="contact" class="section reveal contact">
+      <svg class="sk sk-contact" viewBox="0 0 120 80" aria-hidden="true" focusable="false"><path d="M12 6h96a8 8 0 0 1 8 8v36a8 8 0 0 1-8 8H56L36 74V58H12a8 8 0 0 1-8-8V14a8 8 0 0 1 8-8Z" fill="#FF9F7A" stroke="#EAE6DF" stroke-width="3" stroke-linejoin="round"/><text x="60" y="40" text-anchor="middle" font-family="Instrument Serif, serif" font-size="25" font-weight="700" fill="#0F1420">say hi!</text></svg>
+      <p class="kicker">08 · say hi</p>
+      <h2>let's build something</h2>
+      <p class="sub">talking product, technology and people,<br>or just want to trade notes.</p>
+      <div class="script" role="group" aria-label="A short screenplay about getting in touch">
+        <i class="tape t1"></i><i class="tape t2"></i>
+        <span class="pg">1.</span>
+        <p class="sl">FADE IN:</p>
+        <p class="sh">INT. COFFEE SHOP – DAY</p>
+        <p class="ac">A laptop, a half-finished coffee and a notebook full of product ideas. RISHABH, early 20s, looks up and smiles.</p>
+        <div class="dl"><p class="ch">RISHABH</p><p class="pa">(grinning)</p><p class="tx">Want to talk about how products are built, what makes people trust them, or anything across fintech, security and AI? My inbox is open.</p></div>
+        <div class="dl"><p class="ch">RISHABH (CONT'D)</p><p class="tx">Easiest way to reach me is email. I'm also on LinkedIn and Substack.</p></div>
+        <p class="sl r">CUT TO:</p>
+        <p class="sh">NEXT SCENE – YOUR MOVE</p>
+        <div class="btn-row">
+          <a class="btn btn-solid" href="mailto:rishabhjain14657@gmail.com">✉ rishabhjain14657@gmail.com</a>
+          <a class="btn" href="https://www.linkedin.com/in/rishabh-jain-0ba096311" target="_blank" rel="noopener">in linkedin</a>
+          <a class="btn" href="https://substack.com/@rishhh0719" target="_blank" rel="noopener">✎ substack</a>
+        </div>
+        <p class="sl">FADE OUT.</p>
+        <p class="ac c">to be continued…<span class="cur">▌</span></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>full time ⚽ · made with care · Rishabh's corner of the internet</footer>
+
+  <!-- PROJECT PANEL -->
+  <dialog id="panel">
+    <button class="close" type="button" aria-label="close">✕</button>
+    <h3 id="panel-title"></h3>
+    <p id="panel-sub" class="panel-sub"></p>
+    <div class="panel-grid">
+      <section><h4>problem</h4><p id="p-problem"></p></section>
+      <section><h4>process</h4><p id="p-process"></p></section>
+      <section><h4>outcome</h4><p id="p-outcome"></p></section>
+      <section><h4>skills demonstrated</h4><ul id="p-skills" class="chips"></ul></section>
+    </div>
+    <p id="panel-link-wrap"></p>
+  </dialog>
+
+  <script src="globe-data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
